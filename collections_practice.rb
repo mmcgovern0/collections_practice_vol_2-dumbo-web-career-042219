@@ -39,7 +39,7 @@ def count_elements(array)
     element[:count] = 0
     name = element[:name]
     array.each do |hash|
-      
+      if hash[:name] == name
     
   
 end
