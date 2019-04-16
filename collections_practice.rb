@@ -48,7 +48,9 @@ end
 
 
 def merge_data(array_1, array_2)
-  array_2.each do |
+  array_2.each do |name, merged_hash|
+    merged_hash = {}
+    array_1.each do ||
   
 end
 
