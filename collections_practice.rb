@@ -47,15 +47,15 @@ def count_elements(array)
 end
 
 
-def merge_data(array_1, array_2)
-  array_2.each do |name, hash_2|
-    merged_hash = {}
-    array_1.each do |hash_1|
-      if hash_1[:first_name] == name
-        merged_hash = hash_2.merge(hash_1)
+def merge_data(array1, array2)
+  array2[0].map do |key, value|
+    new_hash = {}
+    arr1.each do |new_attribute_hash|
+      if new_attr_hash[:first_name] == key
+        new_hash = value.merge(new_attribute_hash_hash)
       end
     end
-    merged_hash
+    new_hash
   end
 end
 
