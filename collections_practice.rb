@@ -44,9 +44,10 @@ def merge_data
 end
 
 
-def find_cool
+def find_cool(array)
   container = []
-  array.each do |
+  array.each do |element|
+    if 
 end
 
 
