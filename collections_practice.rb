@@ -27,7 +27,13 @@ end
 
 
 def remove_non_strings
-  
+  container = []
+  array.each do |element|
+    if element.include?(String)
+      container << element
+    end
+  end
+  container
 end
 
 def count_elements
