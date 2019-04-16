@@ -50,8 +50,8 @@ end
 def merge_data(array1, array2)
   array2[0].map do |key, value|
     new_hash = {}
-    arr1.each do |new_attribute_hash|
-      if new_attr_hash[:first_name] == key
+    array1.each do |new_attribute_hash|
+      if new_attribute_hash[:first_name] == key
         new_hash = value.merge(new_attribute_hash_hash)
       end
     end
