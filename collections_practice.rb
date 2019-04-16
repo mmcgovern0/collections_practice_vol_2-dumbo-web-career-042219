@@ -55,11 +55,11 @@ end
 
 
 def merge_data(array1, array2)
-  array2[0].map do |key, value|
+  array2[0].map do |name, hash|
     new_hash = {}
-    array1.each do |new_attribute_hash|
-      if new_attribute_hash[:first_name] == key
-        new_hash = value.merge(new_attribute_hash_hash)
+    array1.each do |attribute_hash|
+      if attribute_hash[:first_name] == name
+        new_hash = hash.merge(attribute_hash)
       end
     end
     new_hash
