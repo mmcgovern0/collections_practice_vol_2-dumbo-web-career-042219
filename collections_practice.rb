@@ -35,7 +35,10 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.uniq.map { |element| [element, array.count(element)] }.to_h
+  array.each do |element|
+    
+    
+  
 end
 
 
