@@ -10,9 +10,10 @@ def begins_with_r(array)
 end
 
 
-def contain_a
+def contain_a(array)
   container = []
-  
+  array.each do |element|
+    
   
 end
 
