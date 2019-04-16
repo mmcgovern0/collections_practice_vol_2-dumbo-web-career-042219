@@ -37,6 +37,7 @@ end
 def count_elements(array)
   array.each do |element|
     element[:count] = 0
+    name = element[:name]
     
     
   
