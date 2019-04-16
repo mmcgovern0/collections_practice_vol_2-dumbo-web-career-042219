@@ -21,8 +21,15 @@ def contain_a(array)
 end
 
 
-def first_wa
-  
+def first_wa(array)
+  first_wa = nil
+  array.each do |element|
+    if element.match(/wa/)
+      first_wa = element
+      break
+    end
+  end
+  first_wa
 end
 
 
