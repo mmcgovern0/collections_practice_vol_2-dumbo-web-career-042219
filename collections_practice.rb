@@ -1,9 +1,10 @@
 # your code goes here
 def begins_with_r(array)
   array.each do |element|
+    if element[0] != "r"
+      return false
     if element[0] == "r"
       return true
-    false if element[0] != "r"
     end
   end
 end
