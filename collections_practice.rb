@@ -4,7 +4,7 @@ def begins_with_r(array)
     if element[0] == "r"
       return true
     elsif element[0] != "r"
-      return true
+      return false
     end
   end
 end
