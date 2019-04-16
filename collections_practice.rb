@@ -48,7 +48,7 @@ end
 
 
 def merge_data(array_1, array_2)
-  
+  array_2.each do |
   
 end
 
