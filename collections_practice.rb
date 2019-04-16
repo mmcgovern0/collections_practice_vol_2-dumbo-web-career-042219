@@ -1,12 +1,12 @@
 # your code goes here
 def begins_with_r(array)
+  return_value = true
   array.each do |element|
     if element[0] != "r"
-      false
-    elsif element[0] == "r"
-      true
+      return_value = false
     end
   end
+  return_value
 end
 
 
