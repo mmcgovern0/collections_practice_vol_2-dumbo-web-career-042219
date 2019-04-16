@@ -55,7 +55,8 @@ def merge_data(array_1, array_2)
         merged_hash = hash_2.merge(hash_1)
       end
     end
-  
+    merged_hash
+  end
 end
 
 
