@@ -13,7 +13,7 @@ end
 def contain_a(array)
   container = []
   array.each do |element|
-    
+    container << element
   
 end
 
