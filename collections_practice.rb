@@ -51,6 +51,7 @@ def merge_data(array_1, array_2)
   array_2.each do |name, hash_2|
     merged_hash = {}
     array_1.each do |hash_1|
+      if hash_1[:name] == name
   
 end
 
