@@ -2,7 +2,7 @@
 def begins_with_r(array)
   array.each do |element|
     if element[0] == "r"
-      return false
+      return true
     elsif element[0] != "r"
       return true
     end
